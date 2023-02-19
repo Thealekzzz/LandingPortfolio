@@ -1,0 +1,31 @@
+.burger__inner {
+    width: 34px;
+    height: 4px;
+    background-color: black;
+
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+
+
+}
+
+.burger__inner::after, .burger__inner::before {
+    content: " ";
+    display: block;
+
+    width: 34px;
+    height: 4px;
+    background-color: black;
+    
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.burger__inner::before {
+    transform: translateY(8px);
+}
+
+.burger__inner::after {
+    transform: translateY(12px);
+}

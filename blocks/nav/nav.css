@@ -1,0 +1,49 @@
+.nav {
+    padding: 32px 0;
+    margin: 0 auto 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #828282;
+}
+
+@media (max-width: 550px) {
+    .nav {
+        display: none;
+
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        background-color: white;
+
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+        gap: 68px;
+
+        height: 100vh;
+        padding: 66px 30px;
+
+        animation: animationOut .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    }
+}
+
+
+
+@keyframes animationOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    
+}

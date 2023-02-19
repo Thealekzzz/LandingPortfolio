@@ -1,0 +1,10 @@
+.portfolio__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    list-style: none;
+    padding: 0;
+
+    gap: 100px;
+}

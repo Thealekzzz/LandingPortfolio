@@ -1,0 +1,10 @@
+.portfolio__link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #070707;
+}

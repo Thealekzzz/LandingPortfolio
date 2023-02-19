@@ -1,0 +1,7 @@
+.skills__star {
+    width: 26px;
+    height: 26px;
+    
+    background: url(../../images/star.svg) center no-repeat;
+
+}

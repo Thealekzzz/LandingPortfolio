@@ -1,0 +1,15 @@
+.contacts__socials {
+    width: 340px;
+    
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto 44px;    
+}
+
+@media (max-width: 420px) {
+    .contacts__socials {
+        width: 100%;
+    }
+}
+

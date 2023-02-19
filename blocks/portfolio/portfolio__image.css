@@ -1,0 +1,9 @@
+.portfolio__image {
+    margin-bottom: 44px;
+}
+
+@media (max-width: 1080px) {
+    .portfolio__image {
+        width: 100%;
+    }
+}

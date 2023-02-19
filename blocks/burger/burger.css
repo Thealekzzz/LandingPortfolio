@@ -1,0 +1,22 @@
+.burger {
+    height: 20px;
+    min-width: 20px;
+
+    cursor: pointer;
+
+    position: absolute;
+    top: 68px;
+    right: 30px;
+
+    z-index: 100;
+
+}
+
+
+
+
+@media (min-width: 550px) {
+    .burger {
+        display: none;
+    }
+}

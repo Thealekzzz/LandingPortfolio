@@ -1,0 +1,19 @@
+.burger_active {
+    position: fixed;
+
+}
+
+.burger_active .burger__inner {
+    background-color: transparent;
+
+}
+
+.burger_active .burger__inner::before {
+    transform: rotate(45deg) translateY(2px);
+
+}
+
+.burger_active .burger__inner::after {
+    transform: rotate(-45deg) translateY(-2px);
+
+}

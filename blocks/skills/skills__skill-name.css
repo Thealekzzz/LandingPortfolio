@@ -1,0 +1,7 @@
+.skills__skill-name {
+    max-width: 90px;
+    font-weight: bold;
+    color: #828282;
+
+    margin: 24px auto 40px;
+}

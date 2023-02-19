@@ -1,0 +1,21 @@
+.skills__card {
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+}
+
+@media (max-width: 900px) {
+    .skills__card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 900px) {
+    .skills__card {
+        width: 100%;
+    }
+}

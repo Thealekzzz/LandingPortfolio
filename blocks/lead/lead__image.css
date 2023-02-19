@@ -1,0 +1,20 @@
+.lead__image {
+    height: 387px;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: 0 -430px;
+}
+
+@media (max-width: 1080px) {
+    .lead__image {
+        object-position: 0 40%;
+    }    
+}
+
+@media (max-width: 550px) {
+    .lead__image {
+        height: 480px;
+        object-position: center;
+    }
+}

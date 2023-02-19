@@ -1,0 +1,17 @@
+.skills__cards {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 60px 20px;
+
+    flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+    .skills__cards {
+        justify-content: center;
+    }
+}

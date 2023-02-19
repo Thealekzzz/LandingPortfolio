@@ -1,0 +1,17 @@
+.lead__head {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+
+    margin-bottom: 30px;
+}
+
+@media (max-width: 550px) {
+    .lead__head {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+
+        margin-bottom: 36px;
+    }
+}
